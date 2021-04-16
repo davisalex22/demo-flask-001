@@ -19,13 +19,7 @@ def suma():
 
 @app.route('/listado')
 def listado():
-    lista = "<ol>
-  <li>Guayas</li>
-  <li>Loja</li>
-  <li>Pichincha</li>
-  <li>Carchi</li>
-      <li>El Oro</li>
-    </ol>"  
+    lista = "<h3>Provincias del Ecuador</h3><ol><li>Guayas</li><li>Loja</li><li>Pichincha</li><li>Carchi</li><li>El Oro</li></ol>"  
     return lista
 
 if __name__ == "__main__":
